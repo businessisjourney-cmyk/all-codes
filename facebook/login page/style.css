@@ -1,0 +1,137 @@
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .main {
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* Left Side */
+        .left {
+            width: 51%;
+            padding: 40px 30px;
+            border-right: 1px solid #ddd;
+        }
+
+        .logo {
+            color: #0866ff;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .left h1 {
+            font-size: 45px;
+            margin-top: 240px;
+            line-height: 1.2;
+        }
+
+        .blue {
+            color: #0866ff;
+        }
+
+        /* Right Side */
+        .right {
+            width: 49%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .login {
+            width: 100%;
+            max-width: 550px;
+        }
+
+        .login h3 {
+            font-size: 16px;
+            margin-bottom: 25px;
+        }
+
+        input {
+            width: 100%;
+            padding: 18px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 17px;
+            font-size: 15px;
+        }
+
+        .button {
+            width: 100%;
+            padding: 13px;
+            background-color: #0866ff;
+            color: white;
+            border: none;
+            border-radius: 30px;
+            font-size: 16px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .forgot {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .forgot a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .create {
+            width: 100%;
+            padding: 12px;
+            margin-top: 65px;
+            background-color: white;
+            border: 1px solid #0866ff;
+            border-radius: 30px;
+            color: #0866ff;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .meta {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        @media (max-width: 700px) {
+            .main {
+                flex-direction: column;
+            }
+
+            .left, .right {
+                width: 100%;
+            }
+
+            .left {
+                border-right: none;
+                padding: 20px;
+            }
+
+            .left h1 {
+                margin-top: 40px;
+                font-size: 35px;
+            }
+
+            .right {
+                padding: 20px;
+            }
+
+            .create {
+                margin-top: 35px;
+            }
+        }
+
+
+
+
+
+
